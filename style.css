@@ -1,0 +1,96 @@
+/* Poppins google font (used for heading 1)*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Mukta google font (used for p tags)*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Primary classes */
+.btn{
+    display: block;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+    padding: 15px 35px;
+    margin: 5% 0;
+}
+
+.article-text{
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Page header part */
+.top-banner {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/top-header-bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top-banner article{
+    /* border: 1px solid red; */
+    width: 45%;
+    padding-left: 4%;
+    margin-top: 10%;
+}
+
+.top-header-container {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-header-content {
+    margin: 0;
+    padding: 1%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+.top-header-container > img{
+    display: block;
+    width: 8%;
+}
+
+.top-header-content img {
+    display: inline-block;
+}
+
+#first-nav-child{
+    border-bottom: 2px solid black;
+}
+
+.top-header-content li {
+    
+    
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.top-header-content li:hover{
+    border-bottom: 2px solid black;
+}
+.top-header-content li a {
+    display: block;
+    text-decoration: none;
+    color: #2e2e2ea0;
+    font-size: 14px;
+}
+
+/* Header article  */
+.header-article h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
