@@ -60,6 +60,7 @@ h2 {
 
 .top-header-container {
     width: 100%;
+    padding: .5% 0;
     position: sticky;
     top: 0;
     height: 50px;
