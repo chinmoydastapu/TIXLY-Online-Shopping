@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* Mukta google font (used for p tags)*/
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +10,8 @@ body {
 }
 
 /* Primary classes */
-.btn{
+/* Button */
+.btn {
     display: block;
     width: fit-content;
     border-radius: 5px;
@@ -20,10 +22,26 @@ body {
     margin: 5% 0;
 }
 
-.article-text{
+/* Header title */
+h1 {
+    font-size: 50px;
+    color: rgb(64, 63, 63);
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(51, 50, 50);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* p tag articles */
+.article-text {
     font-size: 20px;
     font-family: 'Mukta', sans-serif;
 }
+/* Primary classes end */
+
 
 /* Page header part */
 .top-banner {
@@ -33,8 +51,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.top-banner article{
-    /* border: 1px solid red; */
+
+.top-banner article {
     width: 45%;
     padding-left: 4%;
     margin-top: 10%;
@@ -47,6 +65,7 @@ body {
     height: 50px;
     display: flex;
     justify-content: space-between;
+    background-color: whitesmoke;
 }
 
 .top-header-content {
@@ -59,7 +78,8 @@ body {
     gap: 3%;
 
 }
-.top-header-container > img{
+
+.top-header-container>img {
     display: block;
     width: 8%;
 }
@@ -68,20 +88,20 @@ body {
     display: inline-block;
 }
 
-#first-nav-child{
+#first-nav-child {
     border-bottom: 2px solid black;
 }
 
 .top-header-content li {
-    
-    
     list-style-type: none;
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
 }
-.top-header-content li:hover{
+
+.top-header-content li:hover {
     border-bottom: 2px solid black;
 }
+
 .top-header-content li a {
     display: block;
     text-decoration: none;
@@ -89,8 +109,39 @@ body {
     font-size: 14px;
 }
 
-/* Header article  */
-.header-article h1{
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
+/* Main section starts */
+
+/* Product categories section */
+.product-categories-section {
+    margin: 10% auto;
+}
+
+.title-part {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+
+.categories-container {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.categories-card {
+    display: block;
+    width: 30%;
+    box-shadow: 2px 3px 10px gray;
+}
+
+/* Button division */
+.category-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-button a {
+    margin: 0;
+    position: relative;
+    bottom: 20px;
 }
