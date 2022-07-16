@@ -77,7 +77,6 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 3%;
-
 }
 
 .top-header-container>img {
@@ -90,7 +89,7 @@ h2 {
 }
 
 #first-nav-child {
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 .top-header-content li {
@@ -100,7 +99,7 @@ h2 {
 }
 
 .top-header-content li:hover {
-    border-bottom: 2px solid black;
+    text-decoration: underline;
 }
 
 .top-header-content li a {
