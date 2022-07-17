@@ -50,19 +50,22 @@ h2 {
     background-image: url(images/top-header-bg.avif);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
 }
 
 .top-banner article {
     width: 45%;
     padding-left: 4%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 
 .top-header-container {
     width: 100%;
     padding: .5% 0;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 1;
     height: 50px;
     display: flex;
     justify-content: space-between;
